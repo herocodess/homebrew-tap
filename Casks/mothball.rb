@@ -1,6 +1,6 @@
 cask "mothball" do
-  version "0.1.0"
-  sha256 "bb1c50ac953539467a6b7fadb2fc736fee9f107c47a686d570045f093b0f46e9"
+  version "0.1.1"
+  sha256 "f5f03a987dd5a38d66797cb8ba2e51eb0e1fb420ce86d6481a9e82cf6c2894cc"
 
   url "https://github.com/herocodess/mothball/releases/download/v#{version}/Mothball-#{version}.dmg"
   name "Mothball"
@@ -12,6 +12,7 @@ cask "mothball" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on macos: ">= :big_sur"
 
   app "Mothball.app"
