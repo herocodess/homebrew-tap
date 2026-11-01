@@ -1,22 +1,22 @@
 class Mothball < Formula
   desc "Put idle projects away, get your disk back (command line)"
   homepage "https://github.com/herocodess/mothball"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
-    url "https://github.com/herocodess/mothball/releases/download/v0.1.2/mothball-0.1.2-macos-universal"
-    sha256 "21b16eda8e41573f0c1125006418f57091e6d10c77a27613be00e9a97a5fc5b5"
+    url "https://github.com/herocodess/mothball/releases/download/v0.1.3/mothball-0.1.3-macos-universal"
+    sha256 "11b872b1e1e39827eb6dd1ce02f8be2514f31024be9a5efcc90d6dfea4e5adba"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/herocodess/mothball/releases/download/v0.1.2/mothball-0.1.2-linux-amd64"
-      sha256 "1ca281d5be2b2943ebd39d8e6643d8d4f7b23260bb3f7faf5b66d61b6fc273f1"
+      url "https://github.com/herocodess/mothball/releases/download/v0.1.3/mothball-0.1.3-linux-amd64"
+      sha256 "d44eab2bc272fd2e9736da2355b87e686116929162f9b711e9a7b42a41098aa2"
     end
     on_arm do
-      url "https://github.com/herocodess/mothball/releases/download/v0.1.2/mothball-0.1.2-linux-arm64"
-      sha256 "c4f37d75ff96b26ca4bcad4a0c483377d53a853c929d87fd81b8420b3169be75"
+      url "https://github.com/herocodess/mothball/releases/download/v0.1.3/mothball-0.1.3-linux-arm64"
+      sha256 "3abc3b9bcd96d5907546f96541d0a6cbbb21f40271a2ab0953ff8cfe86588aae"
     end
   end
 
