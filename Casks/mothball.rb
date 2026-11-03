@@ -1,6 +1,6 @@
 cask "mothball" do
-  version "0.1.5"
-  sha256 "2c2c84cf65fd9d47414d43ba8395119edf7fdf4e2e0399b8d3ca0c05bc34a0a3"
+  version "0.1.6"
+  sha256 "aa3156760d01441fa91f7a964e4fa3019900917d5a44dbf5f4edf5d369f7be28"
 
   url "https://github.com/herocodess/mothball/releases/download/v#{version}/Mothball-#{version}.dmg"
   name "Mothball"
